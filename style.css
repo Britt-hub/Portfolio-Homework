@@ -55,13 +55,13 @@ footer {
 }
 
 .body_sec {
-    margin-left: 20px;
+    /* margin-left: 20px; */
 }
 
 .landingPage {
     background: url(change-background-color-on-wix-1024x678.jpg) no-repeat center center fixed;
     background-size: cover;
-    Width: 100vw;
+    width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: center;
