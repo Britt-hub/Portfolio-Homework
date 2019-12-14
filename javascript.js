@@ -10,9 +10,15 @@ function ContactMe() {
     window.scrollBy(0, -64);
     }
 
-    function Portfolio() {
-        var aboutElement = document.getElementById("Portfolio");
-        aboutElement.scrollIntoView();
-        window.scrollBy(0, -64);
+function Portfolio() {
+    var aboutElement = document.getElementById("Portfolio");
+    aboutElement.scrollIntoView();
+    window.scrollBy(0, -64);
         }
         
+ function Home() {
+    var aboutElement = document.getElementById("Home");
+    aboutElement.scrollIntoView();
+    window.scrollBy(0, -64);
+            }
+           
