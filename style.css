@@ -79,7 +79,10 @@ footer {
 }
 
 .MyPicture {
-    width: 30%;
+    max-height: 50%;
+    max-width: 40%;
+
+    
 }
 
 #Content {
@@ -101,6 +104,7 @@ footer {
 #Info {
     width: 100vw;
     height: 100vh;
+    
 }
 
 .projecttwo {
@@ -127,3 +131,22 @@ footer {
     color: rgb(12, 161, 112);
 }
 
+.centering {
+  flex-direction: column;   
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100% !important; 
+}
+
+.align{
+    height: 100vh;
+
+}
+
+.contactCenter {
+display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
