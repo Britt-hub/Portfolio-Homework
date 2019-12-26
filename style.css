@@ -87,7 +87,7 @@ footer {
 
 #Content {
     width: 100vw;
-    height: 100vh;
+    height: ;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     letter-spacing: 3px;
     line-height: 2;
@@ -97,13 +97,13 @@ footer {
 
 #Portfolio {
     width: 100vw;
-    height: 100vh;
+    height: ;
   
 }
 
 #Info {
     width: 100vw;
-    height: 100vh;
+    height: ;
     
 }
 
@@ -125,10 +125,13 @@ footer {
     padding: 15px;
   
 }
-
+/* Created animation but it is now working */
 .textLink  {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(12, 161, 112);
+    -webkit-amimation-duration: 3s;
+    /* -webkit-animation-delay: 2s;
+    -webkit-animation-iteration-count: infinite; */
 }
 
 .centering {
@@ -140,7 +143,7 @@ footer {
 }
 
 .align{
-    height: 100vh;
+    height: ;
 
 }
 
@@ -148,5 +151,9 @@ footer {
 display: flex;
   align-items: center;
   justify-content: center;
+
+}
+
+#scale-demo {
 
 }
