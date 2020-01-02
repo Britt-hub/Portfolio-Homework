@@ -119,17 +119,19 @@ footer {
 
 .brand-logo {
     padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(12, 161, 112);
 }
 
 .resume {
     padding: 15px;
   
 }
-/* Created animation but it is now working */
+/* Created animation in javascript */
 .textLink  {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(12, 161, 112);
-    -webkit-amimation-duration: 3s;
+    /* -webkit-amimation-duration: 3s; */
     /* -webkit-animation-delay: 2s;
     -webkit-animation-iteration-count: infinite; */
 }
@@ -154,6 +156,3 @@ display: flex;
 
 }
 
-#scale-demo {
-
-}
